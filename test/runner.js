@@ -5,6 +5,7 @@ var mocha = new Mocha();
 var passed = [];
 var failed = [];
 
+mocha.addFile('async.test');
 mocha.addFile('callbacks.test');
 mocha.addFile('promises.test');
 
