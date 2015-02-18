@@ -29,11 +29,10 @@ describe('callbacks', function () {
             }, 10);
         };
         
-        var helloWorld = 'Hello world';
-        process1(helloWorld, function(message) {
+        process1('Hello world!', function(message) {
             process2(message, function(message) {
                 process3(message, function(message) {
-                    expect(message).to.equal(helloWorld);
+                    expect(message).to.equal('Hello world!');
                     done();
                 });
             });
