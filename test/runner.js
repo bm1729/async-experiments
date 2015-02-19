@@ -7,6 +7,7 @@ var failed = [];
 
 mocha.addFile('async.test');
 mocha.addFile('callbacks.test');
+mocha.addFile('generators.test');
 mocha.addFile('promises.test');
 
 mocha.timeout(0);

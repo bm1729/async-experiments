@@ -6,6 +6,7 @@ Some experiments with asynchronous code in javascript
 ```javascript
 npm install async-experiments
 npm install grunt-cli
+nvm use 0.11
 npm test
 ```
 
