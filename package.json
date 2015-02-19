@@ -24,7 +24,7 @@
     "node": ">=0.11.0"
   },
   "scripts": {
-    "test": "node --harmony ./node_modules/grunt/lib/grunt"
+    "test": "node --harmony ./node_modules/.bin/grunt"
   },
   "devDependencies": {
     "async": "^0.9.0",
