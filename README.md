@@ -3,10 +3,11 @@
 Some experiments with asynchronous code in javascript
 
 ## Getting Started
-Install the module with: `npm install async-experiments`
-
-## Examples
-_(Coming soon)_
+```javascript
+npm install async-experiments
+npm install grunt-cli
+npm test
+```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
