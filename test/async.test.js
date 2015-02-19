@@ -7,7 +7,7 @@ var expect = require('chai').expect;
 var winston = require('winston');
 
 describe('async', function () {
-    it('async', function (done) {
+    it('waterfall', function (done) {
         
         var starter = function(message) {
             return function(callback) {

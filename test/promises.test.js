@@ -7,7 +7,7 @@ var q = require('q');
 var winston = require('winston');
 
 describe('promises', function () {
-    it('promises', function (done) {
+    it('waterfall', function (done) {
         
         var process1 = function(message) {
             var deferred = q.defer();

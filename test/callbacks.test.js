@@ -6,7 +6,7 @@ var expect = require('chai').expect;
 var winston = require('winston');
 
 describe('callbacks', function () {
-    it('callbacks', function (done) {
+    it('waterfall', function (done) {
         
         var process1 = function(message, callback) {
             setTimeout(function() {
