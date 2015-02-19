@@ -10,6 +10,8 @@ nvm use 0.11
 npm test
 ```
 
+To debug tests (in cloud 9) copy "Node 0.11.x.run" file from lib to .c9/runners. Use this custom builder when running the test/runner.js file.
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
