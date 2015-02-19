@@ -39,6 +39,16 @@ module.exports = function(grunt) {
       },
   
       all: { src: ['test/**/*.test.js'] }
+    },
+    node_version: {
+      options: {
+        alwaysInstall: false,
+        errorLevel: 'fatal',
+        globals: [],
+        maxBuffer: 200*1024,
+        nvm: true,
+        override: ''
+      }
     }
   });
 
@@ -46,8 +56,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-simple-mocha');
+  grunt.loadNpmTasks('grunt-node-version');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'simplemocha']);
+  grunt.registerTask('default', ['node_version', 'jshint', 'simplemocha']);
 
 };
