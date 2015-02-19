@@ -4,5 +4,5 @@ node_js:
 before_script:
   - npm install -g grunt
   - npm install -g grunt-cli
-  - ls -LR
-
+script:
+  - node --harmony ./node_modules/.bin/grunt
